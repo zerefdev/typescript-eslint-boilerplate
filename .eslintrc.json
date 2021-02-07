@@ -32,6 +32,10 @@
         "object-curly-spacing": [
             "warn",
             "always"
+        ],
+        "newline-after-var": [
+            "warn",
+            "always"
         ]
     }
 }
