@@ -36,6 +36,7 @@
         "newline-after-var": [
             "warn",
             "always"
-        ]
+        ],
+        "newline-before-return": "error"
     }
 }
