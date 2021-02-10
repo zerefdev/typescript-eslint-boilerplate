@@ -16,27 +16,31 @@
         "@typescript-eslint"
     ],
     "rules": {
-        "eqeqeq": "warn",
-        "no-throw-literal": "warn",
+        "eqeqeq": "error",
+        "no-throw-literal": "error",
         "quotes": [
             "error",
             "single"
         ],
-        "semi": "warn",
+        "semi": "error",
         "indent": [
             "error",
             4
         ],
         "space-before-blocks": "error",
-        "keyword-spacing": "warn",
+        "keyword-spacing": "error",
         "object-curly-spacing": [
-            "warn",
+            "error",
             "always"
         ],
         "newline-after-var": [
-            "warn",
+            "error",
             "always"
         ],
-        "newline-before-return": "error"
+        "newline-before-return": "error",
+        "comma-dangle": [
+            "error",
+            "never"
+        ]
     }
 }
