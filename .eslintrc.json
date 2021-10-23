@@ -3,51 +3,34 @@
         "es2021": true,
         "node": true
     },
-    "extends": [
-        "eslint:recommended",
-        "plugin:@typescript-eslint/recommended"
-    ],
+    "extends": ["eslint:recommended", "plugin:@typescript-eslint/recommended"],
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
         "ecmaVersion": 12,
         "sourceType": "module"
     },
-    "plugins": [
-        "@typescript-eslint"
-    ],
+    "plugins": ["@typescript-eslint"],
     "rules": {
         "eqeqeq": "error",
         "no-throw-literal": "error",
-        "quotes": [
-            "error",
-            "single"
-        ],
+        "quotes": ["error", "single", { "avoidEscape": true }],
         "semi": "error",
-        "indent": [
-            "error",
-            4
-        ],
+        "indent": ["error", 4],
         "space-before-blocks": "error",
         "keyword-spacing": "error",
-        "object-curly-spacing": [
-            "error",
-            "always"
-        ],
-        "newline-after-var": [
-            "error",
-            "always"
-        ],
+        "object-curly-spacing": ["error", "always"],
+        "newline-after-var": ["error", "always"],
         "newline-before-return": "error",
-        "comma-dangle": [
-            "error",
-            "never"
-        ],
-         "no-multiple-empty-lines": [
+        "comma-dangle": ["error", "never"],
+        "no-multiple-empty-lines": [
             "error",
             {
                 "max": 1,
                 "maxEOF": 0
             }
-        ]
+        ],
+        "@typescript-eslint/no-explicit-any": "off",
+        "@typescript-eslint/explicit-module-boundary-types": "off",
+        "@typescript-eslint/no-non-null-assertion": "off"
     }
 }
