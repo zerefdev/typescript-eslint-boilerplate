@@ -20,7 +20,6 @@
         "keyword-spacing": "error",
         "object-curly-spacing": ["error", "always"],
         "newline-after-var": ["error", "always"],
-        "newline-before-return": "error",
         "comma-dangle": ["error", "never"],
         "no-multiple-empty-lines": [
             "error",
